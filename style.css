@@ -1,0 +1,427 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+}
+li{
+    list-style: none;
+}
+
+
+
+.header{
+    width: 100vw;
+    height: 60px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(main-bg.png);
+}
+.header-left{
+    display: flex;
+    padding-left: 40px;
+}
+.header-end:hover{
+    color: pink;
+    cursor: pointer;
+    background-color: rgb(157, 217, 157);
+
+}
+.header-right:hover{
+    cursor: pointer;
+}
+
+.header-left:hover{
+    cursor: pointer;
+}
+
+
+.header-left b{
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+
+.header-right{
+        display: flex;
+        align-items: center;   
+        gap: 30px;
+        color: rgb(194, 146, 216);
+}
+.header-end{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(95, 95, 255, 0.79);
+    color: rgba(95, 95, 255, 0.79);
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+
+}
+
+
+
+
+
+.img img{
+    width: 100vw;
+    height: 500px;
+    object-fit: cover;
+}
+
+.content{
+    position: relative;
+    left: 100px;
+    bottom: 400px;
+    color: black;
+}
+.content h2{
+    font-size: 40px;
+}
+a{
+    font-size: 20px;
+    margin-left: 60px;
+    color: rgb(121, 144, 190);
+} 
+.last-child {
+    color: black;
+    padding-left: 91px;
+
+}
+.content span{
+    text-decoration-color: orange
+}
+.bg-sml{
+    background-color: gray;
+    width: 350px;
+    height: 500px;
+    margin-left: 800px;
+    position: absolute;
+    top: 59px;
+    color: white;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background-color: rgb(82, 82, 185);
+    color: white;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    margin-left: 150px;
+
+}
+button:hover{
+    background-color: black;
+    color: pink;
+    cursor: pointer;
+}
+
+
+.details {
+    width: 100%;
+    padding-left: 25px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.left {
+    width: 500px;
+    padding-bottom: 10px;
+}
+
+.left p{
+    font-size: 15px;
+    display: flex;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 25px;
+}
+.right {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.right-rt {
+    font-size: 12px;
+}
+
+.left h4{
+    width: 120px;
+    border-bottom: 2px solid orange;
+}
+
+
+
+.exp {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.exp img{
+    width: 40px;
+    height: 40px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 180px;
+    height: 67px;
+    align-items: center;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box2{
+    width: 180px;
+    height: 67px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 0.5px solid darkgray;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contn {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pro{
+    padding-top: 60px;
+}
+
+.text{
+    text-align: center;
+}
+
+.text button{
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+    background-color: darkgray;
+    color: rgb(179, 255, 47);
+    margin: 10px;
+}
+
+.list1{
+    padding-left: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.list1 a:hover{
+    border-bottom: 1px solid blue;
+}
+
+.line{
+    width: 1160px;
+    margin-left: 60px;
+    border-bottom: 1px solid darkgray;
+}
+
+.list-pr1{
+    width: 1160px;
+    padding-left: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    gap: 20px;
+}
+.frame{
+    width: 380px;
+    height: 150px;
+    border: 1px solid darkgray;
+}
+
+.frame img{
+    width: 40px;
+    height: 40px;
+}
+
+.gap{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.but {
+    display: flex;
+    gap: 5px;
+}
+
+.but button{
+    width: 70px;
+    height: 30px;
+    font-size: 10px;
+    background-color: black;
+    color:pink;
+    margin-left: 7px;
+}
+
+.list-pr2{
+    padding-left: 60px;
+    padding-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.list-pr2 .frame{
+    width: 360px;
+}
+
+
+.get-in-touch{
+    padding-left: 257px;
+    padding-top: 60px;
+    display: flex;
+    gap: 125px;
+    width: 1100px;
+    height: 650px;
+}
+
+.gap-touch{
+    width: 620px;
+}
+
+.gap-touch input{
+    width: 300px;
+    height: 40px;
+}
+
+#form1{
+    display: flex;
+    gap: 20px;
+}
+
+.form-right{
+    margin-right: 200px;
+    width: 300px;
+    height: 160px;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.gap-touch img{
+    width: 200px;
+    height: 200px;
+}
+.tt1 {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    align-items: center;
+    box-shadow: 3px 3px 3px darkgray;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: end;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+/* -------------------------- */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    background-color: darkblue;
+    margin-top: -10px;
+    gap: 130px;
+}
+
+.column {
+	flex: 1;
+	margin-right: 20px;
+    list-style: none;
+}
+
+.column h2 {
+    text-transform: uppercase;
+    color: azure;
+}
+
+.column h4 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: azure;
+}
+.column li {
+    margin-bottom: 15px;
+    color: grey;
+}
+.h ul li {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: inline; 
+    margin-left: 7px;
+}
+
+.h ul p {
+    margin-left: 40px;
+    color: grey;
+    display: flex;
+}
+.h{
+    width: 100%;
+    height: 40px;
+    background-color: darkblue;
+
+}
+
+.column {
+    flex: 1;
+}
+
+.h ul .i {
+    color: blue;
+}
